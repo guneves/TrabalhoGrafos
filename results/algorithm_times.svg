@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="98" y="34" font-size="22" font-family="Arial" font-weight="700" fill="#111827">Tempo medio observado por algoritmo</text>
+<text x="98" y="58" font-size="13" font-family="Arial" fill="#475569">Escala log10 em segundos; barras mostram media e hastes mostram IC 95%.</text>
+<line x1="98" y1="528.0" x2="1158" y2="528.0" stroke="#e5e7eb"/>
+<text x="88" y="532.0" font-size="11" font-family="Arial" text-anchor="end" fill="#475569">1e-7s</text>
+<line x1="98" y1="464.9" x2="1158" y2="464.9" stroke="#e5e7eb"/>
+<text x="88" y="468.9" font-size="11" font-family="Arial" text-anchor="end" fill="#475569">1e-6s</text>
+<line x1="98" y1="401.7" x2="1158" y2="401.7" stroke="#e5e7eb"/>
+<text x="88" y="405.7" font-size="11" font-family="Arial" text-anchor="end" fill="#475569">1e-5s</text>
+<line x1="98" y1="338.6" x2="1158" y2="338.6" stroke="#e5e7eb"/>
+<text x="88" y="342.6" font-size="11" font-family="Arial" text-anchor="end" fill="#475569">1e-4s</text>
+<line x1="98" y1="275.4" x2="1158" y2="275.4" stroke="#e5e7eb"/>
+<text x="88" y="279.4" font-size="11" font-family="Arial" text-anchor="end" fill="#475569">1e-3s</text>
+<line x1="98" y1="212.3" x2="1158" y2="212.3" stroke="#e5e7eb"/>
+<text x="88" y="216.3" font-size="11" font-family="Arial" text-anchor="end" fill="#475569">1e-2s</text>
+<line x1="98" y1="149.1" x2="1158" y2="149.1" stroke="#e5e7eb"/>
+<text x="88" y="153.1" font-size="11" font-family="Arial" text-anchor="end" fill="#475569">1e-1s</text>
+<line x1="98" y1="86.0" x2="1158" y2="86.0" stroke="#e5e7eb"/>
+<text x="88" y="90.0" font-size="11" font-family="Arial" text-anchor="end" fill="#475569">1e0s</text>
+<line x1="98" y1="528" x2="1158" y2="528" stroke="#111827" stroke-width="1.2"/>
+<line x1="98" y1="86" x2="98" y2="528" stroke="#111827" stroke-width="1.2"/>
+<text x="628.0" y="642" font-size="13" font-family="Arial" text-anchor="middle" fill="#111827">algoritmo</text>
+<text x="18" y="307.0" font-size="13" font-family="Arial" text-anchor="middle" fill="#111827" transform="rotate(-90 18,307.0)">tempo medio em escala log10</text>
+<rect x="125.8" y="150.9" width="76.8" height="377.1" fill="#0f766e" opacity="0.86"><title>BFS: 0.0938903s +/- 0.00302s</title></rect>
+<line x1="164.2" y1="150.0" x2="164.2" y2="151.8" stroke="#111827" stroke-width="1.6"/>
+<line x1="155.2" y1="150.0" x2="173.2" y2="150.0" stroke="#111827" stroke-width="1.6"/>
+<line x1="155.2" y1="151.8" x2="173.2" y2="151.8" stroke="#111827" stroke-width="1.6"/>
+<text x="164.2" y="143.9" font-size="10" font-family="Arial" text-anchor="middle" fill="#334155">9.39e-02s</text>
+<text x="156.2" y="602" font-size="11" font-family="Arial" fill="#111827" transform="rotate(-35 156.2,602)">BFS</text>
+<rect x="258.3" y="130.1" width="76.8" height="397.9" fill="#0f766e" opacity="0.86"><title>DFS: 0.200372s +/- 0.0037s</title></rect>
+<line x1="296.8" y1="129.6" x2="296.8" y2="130.6" stroke="#111827" stroke-width="1.6"/>
+<line x1="287.8" y1="129.6" x2="305.8" y2="129.6" stroke="#111827" stroke-width="1.6"/>
+<line x1="287.8" y1="130.6" x2="305.8" y2="130.6" stroke="#111827" stroke-width="1.6"/>
+<text x="296.8" y="123.1" font-size="10" font-family="Arial" text-anchor="middle" fill="#334155">2.00e-01s</text>
+<text x="288.8" y="602" font-size="11" font-family="Arial" fill="#111827" transform="rotate(-35 288.8,602)">DFS</text>
+<rect x="390.8" y="507.7" width="76.8" height="20.3" fill="#0f766e" opacity="0.86"><title>Verificacao de Eulerianidade: 2.0999e-07s +/- 4.73e-08s</title></rect>
+<line x1="429.2" y1="502.1" x2="429.2" y2="514.7" stroke="#111827" stroke-width="1.6"/>
+<line x1="420.2" y1="502.1" x2="438.2" y2="502.1" stroke="#111827" stroke-width="1.6"/>
+<line x1="420.2" y1="514.7" x2="438.2" y2="514.7" stroke="#111827" stroke-width="1.6"/>
+<text x="429.2" y="500.7" font-size="10" font-family="Arial" text-anchor="middle" fill="#334155">2.10e-07s</text>
+<text x="421.2" y="602" font-size="11" font-family="Arial" fill="#111827" transform="rotate(-35 421.2,602)">Eulerianidade</text>
+<rect x="523.3" y="133.4" width="76.8" height="394.6" fill="#0f766e" opacity="0.86"><title>Dijkstra: 0.177694s +/- 0.00247s</title></rect>
+<line x1="561.8" y1="133.0" x2="561.8" y2="133.8" stroke="#111827" stroke-width="1.6"/>
+<line x1="552.8" y1="133.0" x2="570.8" y2="133.0" stroke="#111827" stroke-width="1.6"/>
+<line x1="552.8" y1="133.8" x2="570.8" y2="133.8" stroke="#111827" stroke-width="1.6"/>
+<text x="561.8" y="126.4" font-size="10" font-family="Arial" text-anchor="middle" fill="#334155">1.78e-01s</text>
+<text x="553.8" y="602" font-size="11" font-family="Arial" fill="#111827" transform="rotate(-35 553.8,602)">Dijkstra</text>
+<rect x="655.8" y="421.8" width="76.8" height="106.2" fill="#0f766e" opacity="0.86"><title>Bellman-Ford (subgrafo): 4.79998e-06s +/- 7.02e-07s</title></rect>
+<line x1="694.2" y1="418.1" x2="694.2" y2="426.2" stroke="#111827" stroke-width="1.6"/>
+<line x1="685.2" y1="418.1" x2="703.2" y2="418.1" stroke="#111827" stroke-width="1.6"/>
+<line x1="685.2" y1="426.2" x2="703.2" y2="426.2" stroke="#111827" stroke-width="1.6"/>
+<text x="694.2" y="414.8" font-size="10" font-family="Arial" text-anchor="middle" fill="#334155">4.80e-06s</text>
+<text x="686.2" y="602" font-size="11" font-family="Arial" fill="#111827" transform="rotate(-35 686.2,602)">Bellman-Ford</text>
+<rect x="788.3" y="312.8" width="76.8" height="215.2" fill="#0f766e" opacity="0.86"><title>Floyd-Warshall (subgrafo): 0.000255907s +/- 4.97e-06s</title></rect>
+<line x1="826.8" y1="312.3" x2="826.8" y2="313.3" stroke="#111827" stroke-width="1.6"/>
+<line x1="817.8" y1="312.3" x2="835.8" y2="312.3" stroke="#111827" stroke-width="1.6"/>
+<line x1="817.8" y1="313.3" x2="835.8" y2="313.3" stroke="#111827" stroke-width="1.6"/>
+<text x="826.8" y="305.8" font-size="10" font-family="Arial" text-anchor="middle" fill="#334155">2.56e-04s</text>
+<text x="818.8" y="602" font-size="11" font-family="Arial" fill="#111827" transform="rotate(-35 818.8,602)">Floyd-Warshall</text>
+<rect x="920.8" y="124.0" width="76.8" height="404.0" fill="#0f766e" opacity="0.86"><title>Tarjan: 0.250317s +/- 0.0161s</title></rect>
+<line x1="959.2" y1="122.3" x2="959.2" y2="125.8" stroke="#111827" stroke-width="1.6"/>
+<line x1="950.2" y1="122.3" x2="968.2" y2="122.3" stroke="#111827" stroke-width="1.6"/>
+<line x1="950.2" y1="125.8" x2="968.2" y2="125.8" stroke="#111827" stroke-width="1.6"/>
+<text x="959.2" y="117.0" font-size="10" font-family="Arial" text-anchor="middle" fill="#334155">2.50e-01s</text>
+<text x="951.2" y="602" font-size="11" font-family="Arial" fill="#111827" transform="rotate(-35 951.2,602)">Tarjan</text>
+<rect x="1053.3" y="116.6" width="76.8" height="411.4" fill="#0f766e" opacity="0.86"><title>Kruskal/MST: 0.327248s +/- 0.00454s</title></rect>
+<line x1="1091.8" y1="116.3" x2="1091.8" y2="117.0" stroke="#111827" stroke-width="1.6"/>
+<line x1="1082.8" y1="116.3" x2="1100.8" y2="116.3" stroke="#111827" stroke-width="1.6"/>
+<line x1="1082.8" y1="117.0" x2="1100.8" y2="117.0" stroke="#111827" stroke-width="1.6"/>
+<text x="1091.8" y="109.6" font-size="10" font-family="Arial" text-anchor="middle" fill="#334155">3.27e-01s</text>
+<text x="1083.8" y="602" font-size="11" font-family="Arial" fill="#111827" transform="rotate(-35 1083.8,602)">Kruskal/MST</text>
+</svg>

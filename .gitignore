@@ -1,0 +1,13 @@
+# Python/runtime cache
+__pycache__/
+*.py[cod]
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Raw SNAP CSVs are too large for normal GitHub tracking.
+# Recreate them locally with: python scripts/download_data.py
+data/raw/*.csv
+!data/raw/.gitkeep

@@ -1,0 +1,18 @@
+{
+  "source_dataset": "web-RedditEmbeddings",
+  "source_url": "https://snap.stanford.edu/data/web-RedditEmbeddings.html",
+  "raw_files": [
+    "data\\raw\\web-redditEmbeddings-subreddits.csv",
+    "data/raw/web-redditEmbeddings-users.csv"
+  ],
+  "analysis_raw_file": "data\\raw\\web-redditEmbeddings-subreddits.csv",
+  "graph_interpretation": "Subreddits as vertices; undirected cosine-similarity kNN edges.",
+  "uses_all_subreddit_vertices": true,
+  "requested_sample_size": null,
+  "sample_size": 51278,
+  "k": 10,
+  "embedding_dimensions": 300,
+  "nodes": 51278,
+  "edges": 446502,
+  "weight": "1 - cosine_similarity"
+}
