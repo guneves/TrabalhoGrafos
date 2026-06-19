@@ -1,6 +1,7 @@
 # Python/runtime cache
 __pycache__/
 *.py[cod]
+.pytest_cache/
 
 # Local virtual environments
 .venv/
@@ -11,3 +12,19 @@ env/
 # Recreate them locally with: python scripts/download_data.py
 data/raw/*.csv
 !data/raw/.gitkeep
+
+# Local Codex/runtime artifacts
+.agents/
+tmp/
+
+# LaTeX build artifacts generated locally
+LaTeX/*.aux
+LaTeX/*.bbl
+LaTeX/*.blg
+LaTeX/*.cut
+LaTeX/*.log
+LaTeX/*.out
+LaTeX/main.pdf
+
+# Legacy report artifacts replaced by LaTeX
+relatorio_web_reddit_embeddings.pdf

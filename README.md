@@ -2,6 +2,8 @@
 
 Este projeto analisa o dataset **web-RedditEmbeddings** do SNAP como uma rede de similaridade entre comunidades do Reddit. Cada subreddit e representado por um vetor de 300 dimensoes; o grafo tratado liga comunidades com embeddings parecidos por similaridade de cosseno.
 
+Repositorio da entrega: https://github.com/guneves/TrabalhoGrafos
+
 ## Determinacao pela matricula
 
 Matricula usada: `224116475`.
@@ -49,7 +51,7 @@ Por isso, `.gitignore` ignora `data/raw/*.csv`. A pasta `data/raw` fica no repos
 python scripts/download_data.py
 ```
 
-Os arquivos tratados em `data/processed`, os graficos em `results` e o relatorio final permanecem no projeto para consulta e reproducibilidade da entrega.
+Os arquivos tratados em `data/processed`, os graficos em `results` e o relatorio final em `LaTeX` permanecem no projeto para consulta e reproducibilidade da entrega.
 
 ## Como executar
 
@@ -60,10 +62,9 @@ pip install -r requirements.txt
 python scripts/download_data.py
 python scripts/build_graph.py --k 10
 python scripts/analyze_graph.py --benchmark-runs 30 --robustness-runs 30 --path-samples 16 --random-graphs 5
-python scripts/generate_report.py
 ```
 
-Atalho equivalente, seguindo a forma literal mencionada no enunciado:
+Atalho equivalente para executar o pipeline completo:
 
 ```powershell
 python main.py
@@ -92,8 +93,33 @@ python scripts/build_graph.py --visualization-only --visualization-n 420
 - `results/degree_model_comparison.svg` e `.png`: comparacao visual com Poisson e normal
 - `results/benchmark_raw_times.csv`: tempos individuais das 30 execucoes de cada algoritmo
 - `results/robustness_runs.csv`: metricas das 30 repeticoes de robustez aleatoria e do ataque por centralidade
-- `relatorio_web_reddit_embeddings.md`: relatorio final em Markdown
-- `relatorio_web_reddit_embeddings.pdf`: versao em PDF com tabelas e graficos principais
+- `LaTeX/main.tex`: relatorio final em formato WebMedia/Overleaf
+- `LaTeX/224116475.pdf`: PDF final para envio no Moodle
+- `LaTeX/artigo_webmedia_referencias.bib`: referencias BibTeX para compilar a versao WebMedia
+
+## Como compilar a versao WebMedia
+
+A versao em artigo cientifico foi escrita para o template oficial WebMedia
+do Overleaf. A pasta `LaTeX` reune os arquivos prontos para upload:
+`main.tex`, `artigo_webmedia_referencias.bib` e a subpasta `results`
+com todas as imagens usadas no artigo.
+
+Para compilar no Overleaf, crie um projeto a partir do template
+`webmedia-template`, envie o conteudo da pasta `LaTeX` e deixe
+`main.tex` como arquivo principal. As imagens usadas sao:
+
+```text
+artigo_webmedia_referencias.bib
+results/graph_visualization.png
+results/degree_histogram.png
+results/degree_ccdf.png
+results/algorithm_times.png
+results/degree_log_pk.png
+results/degree_model_comparison.png
+results/robustness.png
+```
+
+O arquivo final para envio no Moodle fica em `LaTeX/224116475.pdf`.
 
 ## Observacao metodologica
 
