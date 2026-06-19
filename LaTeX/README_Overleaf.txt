@@ -23,9 +23,3 @@ Como usar esta pasta no Overleaf
 4. Defina main.tex como arquivo principal.
 
 5. Compile com pdfLaTeX e BibTeX no Overleaf.
-
-6. Exporte o PDF final e renomeie para 224116475.pdf para envio no Moodle.
-
-Observação: o arquivo webmedia.cls vem no projeto criado pelo template
-WebMedia. Por isso ele não foi duplicado nesta pasta. Se você criar um
-projeto em branco, será necessário enviar também o webmedia.cls do template.
